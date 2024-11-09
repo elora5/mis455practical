@@ -1,7 +1,23 @@
+/* Styling for polarograph images */
 .polarograph {
     width: 100%;
-    height: auto;
-    filter: grayscale(100%) contrast(150%);
-    border-radius: 8px;
-    margin: 1rem 0;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Styling for product images */
+.product-image {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Optional styling for .grid-container layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
