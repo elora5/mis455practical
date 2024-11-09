@@ -1,0 +1,7 @@
+.polarograph {
+    width: 100%;
+    max-width: 300px; /* Set a max width to prevent images from being too large */
+    margin: 10px auto;
+    display: block;
+    filter: grayscale(100%) contrast(150%); /* Optional styling for a unique look */
+}
